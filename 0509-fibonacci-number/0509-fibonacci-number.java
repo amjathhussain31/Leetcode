@@ -4,7 +4,7 @@ class Solution {
         if(n==1) return 1;
         int a=0;
         int b=1;
-        int sum=a+b;
+        int sum=1;
         while(n>1){
             sum=a+b;
             a=b;
